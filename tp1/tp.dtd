@@ -1,0 +1,9 @@
+<!ELEMENT contributors (contribution*)>
+<!ELEMENT contribution (text*, status?, assignedTo?)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT assignedTo (#PCDATA)>
+
+<!ATTLIST contribution cname CDATA #REQUIRED>
+<!ATTLIST contribution cname1 CDATA #IMPLIED>
+<!ATTLIST text date CDATA #REQUIRED>
